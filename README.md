@@ -90,8 +90,26 @@ conda install psycopg2 pandas geopandas sqlalchemy jupyter -c conda-forge
 jupyter notebook
 
 ```
-Note: Open notebook/run_all_qa.ipynb and run all cells. Alternatively, run scripts/run_all_qa.py from the terminal.
+Note: Open notebook/run_all_qa.ipynb and run all cells. 
 
+### Try running the script with Git bash
+A quick way to cover it is having a requirements.txt and running:
+
+```bash
+pip install -r requirements.txt
+
+```
+Or, install manually:
+```bash
+pip install psycopg2-binary pandas geopandas sqlalchemy
+
+```
+Type this to run the entire script:
+
+```bash
+python scripts/run_all_qa.py
+
+```
 ---
 
 # Outputs
@@ -107,3 +125,4 @@ Note: Open notebook/run_all_qa.ipynb and run all cells. Alternatively, run scrip
 ![Visualizing Spatial QA Errors](https://github.com/user-attachments/assets/eca582f6-4627-46e5-9bb3-5e0dbd7e6282)
 
 ---
+
