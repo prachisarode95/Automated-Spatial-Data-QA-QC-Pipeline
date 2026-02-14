@@ -121,8 +121,9 @@ python scripts/run_all_qa.py
 | `.ipynb` notebook        | Full code for entire spatial QA pipeline in one go |
 
 ---
-# Outputs Visualization
+# Outputs
 ![Visualizing Spatial QA Errors](https://github.com/user-attachments/assets/eca582f6-4627-46e5-9bb3-5e0dbd7e6282)
 
 ---
+
 
